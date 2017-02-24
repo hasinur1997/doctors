@@ -1,0 +1,120 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+/*
+ * Typography
+ */
+
+
+button .btn, a{ 
+  outline: 0;
+ }
+
+ button .btn:focus{ 
+   outline: 0;
+}
+
+h1 {
+  margin-bottom: 20px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  width:100%;
+  max-width:200px;
+  top: 51px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 20px;
+ overflow-x: hidden;
+ overflow: auto; /* Scrollable contents if viewport is shorter than content. */
+  border-right: 1px solid #eee;
+  background:#F7F7F7;
+}
+
+/* Sidebar navigation */
+.sidebar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sidebar .nav {
+  margin-bottom: 20px;
+}
+
+.sidebar .nav-item {
+  width: 100%;
+}
+
+.sidebar .nav-item + .nav-item {
+  margin-left: 0;
+}
+
+.sidebar .nav-link {
+  border-radius: 0;
+}
+
+.main{
+	position: relative;
+	left: 150px;
+	top: 0;
+	width: calc(100% - 150px);
+	padding: 10px;
+}
+.active{
+	background:#eee
+}
+
+
+/*hospital-info*/
+
+.hospital-info{ 
+  
+  border-top:1px solid #ddd;
+  
+ }
+
+
+ .select2-container{ 
+    display: block !important;
+    width:100% !important;
+  }
+
+
+
+
+.upload{ 
+  position: relative;
+ }
+.upload input{
+  opacity: 0;
+  position: relative;
+  z-index: 45;
+  cursor: pointer;
+}
+.upload:after{
+  content:'Upload File';
+  position:absolute;
+  width:50%;
+  height: 100%;
+  cursor: pointer;
+  top:0;
+  z-index: 1;
+  border:1px solid #ddd;
+  text-align:center;
+  display: block;
+  padding: 5px;
+}

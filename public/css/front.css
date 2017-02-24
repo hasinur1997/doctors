@@ -1,0 +1,400 @@
+html, body
+{
+  height:100%;
+  margin:0;
+  padding:0;
+
+  color:#8A8A8A;
+}
+
+*{ 
+
+	outline: 0;
+}
+.doc-search-section{ 
+	padding:75px 0;
+}
+
+.search-left{
+	padding-left:7.5px;
+	padding-right:7.5px;
+}
+
+.search-right{ 
+	padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+
+.doc-specialty-section{ 
+	padding:70px 0;
+	background:#f3f3f3;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow{ 
+	display:none;
+}
+
+.footer{
+	
+	padding:30px 0;
+	background:#1f1f1f;
+	color:#c1c1c1;
+}
+
+.select2-container--default .select2-selection--single{ 
+	border-radius:0 !important;
+	height: 67px !important;
+	
+}
+
+.select2-container .select2-selection{
+	
+	
+	border:0px !important;
+	
+	
+
+}
+span.select2-selection.select2-selection--single {
+    border: 1px solid #e9e9e9;
+    outline: 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+   
+	line-height:65px !important;
+	background:#ddd !important;
+}
+
+.select2-container--open span.select2-selection.select2-selection--single {
+    border-color: #00baff;
+}
+
+.container--open span.select2-selection.select2-selection--single {
+    border: 1px solid #00baff;
+}
+
+.search-title{ 
+	margin-bottom:20px;
+}
+
+.doc-specialty{ 
+	display: flex;
+	flex-flow: row wrap;
+    
+}
+.doc-specialty li{ 
+	list-style:none;
+	text-align:center;
+	margin:5px;
+	flex: 0 1 calc(19% - 5px);
+	box-sizing: border-box;
+	display:list-item;
+	box-sizing: border-box;
+	
+}
+
+.doc-specialty li a{
+	height:120px;
+	background-color:#fff;
+	border:1px solid #ddd;
+	display:flex;
+    flex-direction: column;
+	justify-content: center;
+	font-size: 11px;
+	color:#34495e;
+	transition: all ease .3s;
+	text-decoration:none;
+}
+
+.doc-specialty li a:hover{ 
+	background:#3498db;
+	color:#fff;
+}
+h3.doc-specialty-title{
+	
+	height: 260px;
+	
+}
+
+.doc-specialty-title{
+	display: table-cell;
+    height: 110px;
+    vertical-align: middle;
+    color: #8a8a8a;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+
+.footer-nav{ 
+
+}
+
+.footer-nav li a{
+	color:#fff;
+	transition: all ease .3s;
+}
+
+.footer-nav li a:hover{ 
+	color:#3498db;
+	background-color:transparent;
+}
+.search-single-directory{
+
+	padding:60px;
+}
+.single-section{ 
+	border:1px solid #ddd;
+	
+	margin-bottom: 25px;
+ }
+
+ .signle-left{
+	padding:25px;
+ }
+
+
+
+.single-left a h2{ 
+color: #505050;
+font-size: 24px;
+line-height: 30px;
+margin-top: 0 !important;
+}
+
+
+
+.signle-right{
+	padding: 0 30px;
+    background-color: #f5f5f5;
+    border-left: 1px solid #e4e4e4;
+    height:247px;
+}
+
+.contact-info{ 
+	
+	position: relative;
+	top:30%;
+
+}
+
+.sl-btn{ 
+	width:100%;
+	border-radius:0;
+	background-color: transparent;
+	border: 2px solid #2c3e50;
+	padding: 13px 0;
+	transition: all ease .3s;
+ }
+.sl-btn:hover{
+	background-color: #2980b9;
+	border:2px solid #2980b9;
+}
+
+
+.doc-name h2{ 
+	margin-top:0;
+	text-decoration: none;
+}
+.doc-name:hover{
+	text-decoration: none;
+	outline:0;
+}
+
+.address{ 
+	margin-top: 40px;
+ }
+
+.icon{ 
+	line-height: 52px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.search-btn{ 
+	border:0px;
+	border-radius:0px;
+	
+	background-color:#3498db;
+	padding: 7px 50px;
+	transition: all ease .3s;
+}
+
+.search-btn:hover{ 
+	background-color:#2980b9;
+	outline: 0;
+ }
+
+.doctor-profile-section{ 
+
+	padding:60px 0;
+}
+
+
+.border{ 
+	border-bottom: 1px solid #ddd !important;
+
+}
+
+.doc-name{
+
+ margin-top: 0;
+ border-bottom: 1px solid #ddd;
+ padding-bottom: 20px;
+}
+
+.doc-edu{ 
+
+ }
+
+
+.doc-edu h3, .doc-sp h3, .share-doc h3{ 
+	display:table-cell;
+	padding-top:12.5px;
+	padding-bottom:12.5px;
+	text-align: left;
+}
+
+.doc-edu p, .doc-sp p,  .share-doc p{ 
+	display:table-cell;
+	padding-top:12.5px;
+	padding-bottom:12.5px;
+	padding-left: 25px;
+	font-size:14px;
+}
+
+.doc-des{ 
+	border-bottom:1px solid #ddd;
+}
+
+.share-doc{
+
+}
+
+.share-doc a i{ 
+	padding: 10px 14px;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.fa-facebook{ 
+	background-color: #8e44ad;
+}
+
+.fa-twitter{ 
+	background-color: #2980b9;
+ }
+
+ .fa-google-plus{ 
+	background-color: #e67e22;
+ }
+
+ .fa-linkedin{ 
+	background-color: #e74c3c;
+ }
+
+.dbt{
+	width: 100%;
+    padding: 13px 0;
+    border-radius: 0px;
+    margin-bottom: 30px;
+
+}
+.visitting-card{ 
+	 margin-bottom: 15px;
+ }
+ .serial-btn{ 
+    border: 2px solid;
+    background: #fff;
+    transition: all ease .3s;
+    
+ }
+
+ .serial-btn:hover{ 
+	background-color: #2980b9;
+	border: 2px solid #2980b9;
+	color:#fff;
+	
+ }
+
+ .fee-btn{
+ 	background-color: #ddd;
+    
+ }
+
+.download-btn{ 
+	border: 2px solid #34495e;
+	transition: all ease .3s;
+}
+
+.download-btn:hover{ 
+	background-color: #2980b9;
+	border: 2px solid #2980b9;
+	color:#fff;
+	
+ }
+
+.communication{ 
+	
+	margin-top:30px;
+}
+
+.communication h4{ 
+	
+	margin-bottom: 20px;
+	padding-bottom: 10px; 
+	border-bottom: 1px solid #ddd;
+}
+
+
+.about-doctor{ 
+	
+	margin-top: 55px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+  
+}
+.docto{
+	  margin-bottom: 10px;
+}
+.about-doctor h3{
+	margin-left:5px;
+}
+.doctor-education{ 
+	padding:20px;
+	border:1px solid #ddd;
+}
+
+.edu-title{ 
+	border-bottom:1px solid #ddd;
+	padding-bottom: 12.5px; 
+	margin-bottom: 25px; 
+}
+
+.time{
+	color:#34495e;
+	padding-top:10px;
+	padding-bottom:5px;
+	margin-bottom:10px;
+	border-bottom:1px solid #95a5a6
+}
+.visiting-hour, .panel-default, .panel-heading{
+	background-color: #bdc3c7 !important;
+}
+
+.panel-default, .panel-heading, .panel-title{
+	border:0px !important;
+}
+
+.panel a:hover, .panel a:focus{ 
+	text-decoration:none;
+	outline:0;
+}
+
+.panel-collapse, .panel-body{ 
+	background-color:#ecf0f1
+}
